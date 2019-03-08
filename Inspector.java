@@ -56,6 +56,7 @@ public class Inspector {
         //Get all the declared methods
         Method[] declMethods = objClass.getDeclaredMethods();
         Class[] exceptions;
+        Class[] params;
 
         //Print info about the methods
         for (Method method : declMethods) {
@@ -66,6 +67,20 @@ public class Inspector {
             for (Class exception : exceptions) {
                 System.out.println("---     Exception : " + exception.getName());
             }
+
+            //Get parameter types
+            params = method.getParameterTypes();
+            for (Class param : params) {
+                System.out.println("---     Parameter : " + param.getName());
+            }
+
+            //Get Return type
+            System.out.println("---     Return type : " + method.getReturnType().getName());
+
+            //Get Modifiers
+            System.out.println("---     Modifiers : " + method.getModifiers());
+            
+            System.out.println();
         }
     }
 }
