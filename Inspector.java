@@ -52,7 +52,7 @@ public class Inspector {
             currentSuperClass = nextSuperClass;
         }
 
-        System.out.println("-----   End of super class traversal    -----");
+        System.out.println("\n-----   End of super class traversal    -----\n");
     }
 
     public void traverseInterfaces(Class objClass){
@@ -63,9 +63,19 @@ public class Inspector {
 
             //Get interface methods
             if (interFace.getMethods().length != (new Method[] {}).length){
-                System.out.println("\n----- Super Interface methods --------");
+                System.out.println("\n-----  Interface methods --------");
                 inspectMethods(interFace);
             }
+            if (interFace.getInterfaces().length != (new Method[] {}).length) {
+                System.out.println("\n-----  Recursive Super Interfaces --------");
+            }
+
+            while (interFace.getInterfaces().length != (new Method[] {}).length) {
+                for (Class recInterface : interFace.getInterfaces()) {
+                    traverseInterfaces(recInterface);
+                }
+            }
+            System.out.println("\n----- End of Interface traversal  -----\n");
         }
 
     }
