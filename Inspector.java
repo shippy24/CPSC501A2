@@ -44,8 +44,8 @@ public class Inspector {
             System.out.println("\n--Interface : " + interFace.getName());
 
             //Get interface methods
-            if (interFace.getMethods() != new Method[] {}){
-                System.out.println("\n-----  Interface methods --------");
+            if (interFace.getMethods().length != (new Method[] {}).length){
+                System.out.println("\n----- Super Interface methods --------");
                 inspectMethods(interFace);
             }
         }
@@ -55,10 +55,17 @@ public class Inspector {
     public void inspectMethods(Class objClass) {
         //Get all the declared methods
         Method[] declMethods = objClass.getDeclaredMethods();
+        Class[] exceptions;
 
         //Print info about the methods
         for (Method method : declMethods) {
             System.out.println("--- Method: " + method.getName());
+
+            //Get exceptions
+            exceptions = method.getExceptionTypes();
+            for (Class exception : exceptions) {
+                System.out.println("---     Exception : " + exception.getName());
+            }
         }
     }
 }
