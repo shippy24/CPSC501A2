@@ -31,15 +31,23 @@ public class Inspector {
         //attaining methods for current object and super class 
         System.out.println("\n-----  Base class methods --------");
         inspectMethods(objClass);
+
+        //attaining the constructors defined
+        System.out.println("\n-----  Base class Constructors --------");
+        inspectConstructors(objClass);
+
+        //attaining info from traversing super class
         System.out.println("\n-----  Traversing Super Classes --------");
         traverseSuperMethods(objClass);
 
+        
         
     }
 
     public void traverseSuperMethods(Class objClass){
         System.out.println("\n-----  Base Super Class --------");
         inspectMethods(objClass.getSuperclass());
+        inspectConstructors(objClass.getSuperclass());
         Class currentSuperClass = objClass.getSuperclass();
 
         if (currentSuperClass.getSuperclass() != null)
@@ -49,6 +57,7 @@ public class Inspector {
             Class nextSuperClass = currentSuperClass.getSuperclass();
             System.out.println("\n----- " +  nextSuperClass.getName() + " --------");
             inspectMethods(nextSuperClass);
+            inspectConstructors(nextSuperClass);
             currentSuperClass = nextSuperClass;
         }
 
@@ -66,6 +75,13 @@ public class Inspector {
                 System.out.println("\n-----  Interface methods --------");
                 inspectMethods(interFace);
             }
+
+            //Get interface constructors
+            if (interFace.getConstructors().length != (new Constructor[] {}).length){
+                System.out.println("\n-----  Interface constructors --------");
+                inspectConstructors(interFace);
+            }
+
             if (interFace.getInterfaces().length != (new Method[] {}).length) {
                 System.out.println("\n-----  Recursive Super Interfaces --------");
             }
@@ -83,6 +99,7 @@ public class Inspector {
     public void inspectMethods(Class objClass) {
         //Get all the declared methods
         Method[] declMethods = objClass.getDeclaredMethods();
+
         Class[] exceptions;
         Class[] params;
 
@@ -106,9 +123,31 @@ public class Inspector {
             System.out.println("---     Return type : " + method.getReturnType().getName());
 
             //Get Modifiers
-            System.out.println("---     Modifiers : " + method.getModifiers());
+            System.out.println("---     Modifiers : " + method.getModifiers() + "\n");
             
             System.out.println();
         }
+    }
+
+    public void inspectConstructors(Class objClass) {
+        //All declared constructos 
+        Constructor[] constructors = objClass.getConstructors();
+        Class[] params;
+
+        //Print all info about constructors
+        for (Constructor constructor : constructors) {
+            System.out.println("--- Constructor: " + constructor.getName());
+            
+            //Get parameters 
+            params = constructor.getParameterTypes();
+            for (Class param : params) {
+                System.out.println("---     Parameter: " + param.getName());
+            }
+
+            //get Modifiers
+            System.out.println("---     Modifiers : " + constructor.getModifiers() + "\n");
+
+        }
+
     }
 }
