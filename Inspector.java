@@ -26,7 +26,7 @@ public class Inspector {
         System.out.println("--Super Class: " + superClass);
 
         //Interfaces the class implements
-        traverseInterfaces(obj, objClass);
+        traverseInterfaces(obj, objClass, recursive);
         System.out.println();
 
         //attaining methods for current object and super class 
@@ -39,34 +39,36 @@ public class Inspector {
 
         //attaining fields
         System.out.println("\n-----  Base class Fields --------");
-        inspectFields(obj, objClass);
+        inspectFields(obj, objClass, recursive);
 
         //attaining info from traversing super class
         System.out.println("\n-----  Traversing Super Classes --------");
-        traverseSuperMethods(obj, objClass);
+        traverseSuperMethods(obj, objClass, recursive);
 
         //Handling arrays
         handleArray(obj, objClass);
         
     }
 
-    public void handleArray(Object obj, Class objClass) throws Exception {
+    public void handleArray(Object obj, Class objClass) {
+        try {
         //Check if array
-        if (objClass.isArray()) {
+            if (objClass.isArray()) {
             //Print out info about array if array
-            System.out.println("---Array of Type: " + objClass.getComponentType());
-            System.out.println("---Array of length: " + obj.length);
-            for (int i = 0; i < obj.length; i++) {
-                System.out.println("Element " + i + ": " + Array.get(obj, i));
+                System.out.println("---Array of Type: " + objClass.getComponentType());
+                System.out.println("---Array of length: " + Array.getLength(obj));
+                for (int i = 0; i < Array.getLength(obj); i++) {
+                    System.out.println("Element " + i + ": " + Array.get(obj, i));
+                }
             }
-        }
+        }catch (Exception e ) { System.out.println(e.getMessage()); }
     }
 
-    public void traverseSuperMethods(Object obj, Class objClass){
+    public void traverseSuperMethods(Object obj, Class objClass, boolean recursive){
         System.out.println("\n-----  Base Super Class --------");
         inspectMethods(objClass.getSuperclass());
         inspectConstructors(objClass.getSuperclass());
-        inspectFields(obj, objClass);
+        inspectFields(obj, objClass, recursive);
         Class currentSuperClass = objClass.getSuperclass();
 
         if (currentSuperClass.getSuperclass() != null)
@@ -77,14 +79,14 @@ public class Inspector {
             System.out.println("\n----- " +  nextSuperClass.getName() + " --------");
             inspectMethods(nextSuperClass);
             inspectConstructors(nextSuperClass);
-            inspectFields(obj, nextSuperClass);
+            inspectFields(obj, nextSuperClass, recursive);
             currentSuperClass = nextSuperClass;
         }
 
         System.out.println("\n-----   End of super class traversal    -----\n");
     }
 
-    public void traverseInterfaces(Object obj, Class objClass){
+    public void traverseInterfaces(Object obj, Class objClass, boolean recursive){
         Class[] interfaces = objClass.getInterfaces();
         //Print the name of each of the interfaces
         for (Class interFace : interfaces) {
@@ -105,7 +107,7 @@ public class Inspector {
             //Get interface FIELDS
             if (interFace.getConstructors().length != (new Constructor[] {}).length){
                 System.out.println("\n-----  Interface fields--------");
-                inspectFields(obj, interFace);
+                inspectFields(obj, interFace, recursive);
             }
 
             if (interFace.getInterfaces().length != (new Method[] {}).length) {
@@ -114,7 +116,7 @@ public class Inspector {
 
             while (interFace.getInterfaces().length != (new Method[] {}).length) {
                 for (Class recInterface : interFace.getInterfaces()) {
-                    traverseInterfaces(obj, recInterface);
+                    traverseInterfaces(obj, recInterface, recursive);
                 }
             }
             System.out.println("\n----- End of Interface traversal  -----\n");
@@ -177,13 +179,13 @@ public class Inspector {
 
     }
 
-    public void inspectFields(Object obj, Class objClass) {
+    public void inspectFields(Object obj, Class objClass, boolean recursive) {
         //Get fields
-        Field[] declaredFields = objClass.getDeclaredFields();
+        Field[] declFields = objClass.getDeclaredFields();
 
         try {
 
-            for (Field field : declaredFields){
+            for (Field field : declFields){
                 //Print field info
                 System.out.println("---     Field: " + field.getName());
                 System.out.println("---     Type: " + field.getType().getName());
@@ -193,6 +195,21 @@ public class Inspector {
                 field.setAccessible(true);
                 //Get field value
                 System.out.println("---     Value: " + field.get(obj) + "\n");
+            }
+
+            //Recursive Inspection
+            if (recursive) {
+                System.out.println("---  Recursive Inspection ---");
+                Vector<Field> objectsToInspect = new Vector();
+
+                for (Field field : declFields) {
+                    if(! field.getType().isPrimitive() ) 
+		                objectsToInspect.addElement( field );
+                }
+
+                for (Field field : objectsToInspect) {
+                    inspect(field.get(obj), recursive);
+                }
             }
         }
         catch (Exception e) { System.out.println(e.getMessage()); }

@@ -1,0 +1,4499 @@
+Loading object inspector: Inspector
+======================================================
+Running Test: ClassA
+--Declaring Class: ClassA
+--Super Class: java.lang.Object
+
+--Interface : java.io.Serializable
+
+----- End of Interface traversal  -----
+
+
+--Interface : java.lang.Runnable
+
+-----  Interface methods --------
+--- Method: run
+---     Return type : void
+---     Modifiers : 1025
+
+
+
+----- End of Interface traversal  -----
+
+
+
+-----  Base class methods --------
+--- Method: run
+---     Return type : void
+---     Modifiers : 1
+
+
+--- Method: toString
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: setVal
+---     Exception : java.lang.Exception
+---     Parameter : int
+---     Return type : void
+---     Modifiers : 1
+
+
+--- Method: printSomething
+---     Return type : void
+---     Modifiers : 2
+
+
+--- Method: getVal
+---     Return type : int
+---     Modifiers : 1
+
+
+
+-----  Base class Constructors --------
+--- Constructor: ClassA
+---     Modifiers : 1
+
+--- Constructor: ClassA
+---     Parameter: int
+---     Modifiers : 1
+
+
+-----  Base class Fields --------
+---     Field: val
+---     Type: int
+---     Modifier: 2
+---     Value: 3
+
+---     Field: val2
+---     Type: double
+---     Modifier: 2
+---     Value: 0.2
+
+---     Field: val3
+---     Type: boolean
+---     Modifier: 2
+---     Value: true
+
+---  Recursive Inspection ---
+
+-----  Traversing Super Classes --------
+
+-----  Base Super Class --------
+--- Method: finalize
+---     Exception : java.lang.Throwable
+---     Return type : void
+---     Modifiers : 4
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Return type : void
+---     Modifiers : 17
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Parameter : long
+---     Parameter : int
+---     Return type : void
+---     Modifiers : 17
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Parameter : long
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: equals
+---     Parameter : java.lang.Object
+---     Return type : boolean
+---     Modifiers : 1
+
+
+--- Method: toString
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: hashCode
+---     Return type : int
+---     Modifiers : 257
+
+
+--- Method: getClass
+---     Return type : java.lang.Class
+---     Modifiers : 273
+
+
+--- Method: clone
+---     Exception : java.lang.CloneNotSupportedException
+---     Return type : java.lang.Object
+---     Modifiers : 260
+
+
+--- Method: notify
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: notifyAll
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: registerNatives
+---     Return type : void
+---     Modifiers : 266
+
+
+--- Constructor: java.lang.Object
+---     Modifiers : 1
+
+---     Field: val
+---     Type: int
+---     Modifier: 2
+---     Value: 3
+
+---     Field: val2
+---     Type: double
+---     Modifier: 2
+---     Value: 0.2
+
+---     Field: val3
+---     Type: boolean
+---     Modifier: 2
+---     Value: true
+
+---  Recursive Inspection ---
+
+-----   End of super class traversal    -----
+
+======================================================
+======================================================
+Running Test: ClassA
+--Declaring Class: ClassA
+--Super Class: java.lang.Object
+
+--Interface : java.io.Serializable
+
+----- End of Interface traversal  -----
+
+
+--Interface : java.lang.Runnable
+
+-----  Interface methods --------
+--- Method: run
+---     Return type : void
+---     Modifiers : 1025
+
+
+
+----- End of Interface traversal  -----
+
+
+
+-----  Base class methods --------
+--- Method: run
+---     Return type : void
+---     Modifiers : 1
+
+
+--- Method: toString
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: setVal
+---     Exception : java.lang.Exception
+---     Parameter : int
+---     Return type : void
+---     Modifiers : 1
+
+
+--- Method: printSomething
+---     Return type : void
+---     Modifiers : 2
+
+
+--- Method: getVal
+---     Return type : int
+---     Modifiers : 1
+
+
+
+-----  Base class Constructors --------
+--- Constructor: ClassA
+---     Modifiers : 1
+
+--- Constructor: ClassA
+---     Parameter: int
+---     Modifiers : 1
+
+
+-----  Base class Fields --------
+---     Field: val
+---     Type: int
+---     Modifier: 2
+---     Value: 12
+
+---     Field: val2
+---     Type: double
+---     Modifier: 2
+---     Value: 0.2
+
+---     Field: val3
+---     Type: boolean
+---     Modifier: 2
+---     Value: true
+
+---  Recursive Inspection ---
+
+-----  Traversing Super Classes --------
+
+-----  Base Super Class --------
+--- Method: finalize
+---     Exception : java.lang.Throwable
+---     Return type : void
+---     Modifiers : 4
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Return type : void
+---     Modifiers : 17
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Parameter : long
+---     Parameter : int
+---     Return type : void
+---     Modifiers : 17
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Parameter : long
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: equals
+---     Parameter : java.lang.Object
+---     Return type : boolean
+---     Modifiers : 1
+
+
+--- Method: toString
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: hashCode
+---     Return type : int
+---     Modifiers : 257
+
+
+--- Method: getClass
+---     Return type : java.lang.Class
+---     Modifiers : 273
+
+
+--- Method: clone
+---     Exception : java.lang.CloneNotSupportedException
+---     Return type : java.lang.Object
+---     Modifiers : 260
+
+
+--- Method: notify
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: notifyAll
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: registerNatives
+---     Return type : void
+---     Modifiers : 266
+
+
+--- Constructor: java.lang.Object
+---     Modifiers : 1
+
+---     Field: val
+---     Type: int
+---     Modifier: 2
+---     Value: 12
+
+---     Field: val2
+---     Type: double
+---     Modifier: 2
+---     Value: 0.2
+
+---     Field: val3
+---     Type: boolean
+---     Modifier: 2
+---     Value: true
+
+---  Recursive Inspection ---
+
+-----   End of super class traversal    -----
+
+======================================================
+======================================================
+Running Test: ClassB
+--Declaring Class: ClassB
+--Super Class: ClassC
+
+--Interface : java.lang.Runnable
+
+-----  Interface methods --------
+--- Method: run
+---     Return type : void
+---     Modifiers : 1025
+
+
+
+----- End of Interface traversal  -----
+
+
+
+-----  Base class methods --------
+--- Method: run
+---     Return type : void
+---     Modifiers : 1
+
+
+--- Method: toString
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: func3
+---     Parameter : int
+---     Return type : void
+---     Modifiers : 1
+
+
+
+-----  Base class Constructors --------
+--- Constructor: ClassB
+---     Modifiers : 1
+
+
+-----  Base class Fields --------
+---     Field: val
+---     Type: ClassA
+---     Modifier: 2
+---     Value: ClassA
+
+---     Field: val2
+---     Type: ClassA
+---     Modifier: 2
+---     Value: ClassA
+
+---     Field: val3
+---     Type: ClassA
+---     Modifier: 2
+---     Value: null
+
+---  Recursive Inspection ---
+--Declaring Class: ClassA
+--Super Class: java.lang.Object
+
+--Interface : java.io.Serializable
+
+----- End of Interface traversal  -----
+
+
+--Interface : java.lang.Runnable
+
+-----  Interface methods --------
+--- Method: run
+---     Return type : void
+---     Modifiers : 1025
+
+
+
+----- End of Interface traversal  -----
+
+
+
+-----  Base class methods --------
+--- Method: run
+---     Return type : void
+---     Modifiers : 1
+
+
+--- Method: toString
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: setVal
+---     Exception : java.lang.Exception
+---     Parameter : int
+---     Return type : void
+---     Modifiers : 1
+
+
+--- Method: printSomething
+---     Return type : void
+---     Modifiers : 2
+
+
+--- Method: getVal
+---     Return type : int
+---     Modifiers : 1
+
+
+
+-----  Base class Constructors --------
+--- Constructor: ClassA
+---     Modifiers : 1
+
+--- Constructor: ClassA
+---     Parameter: int
+---     Modifiers : 1
+
+
+-----  Base class Fields --------
+---     Field: val
+---     Type: int
+---     Modifier: 2
+---     Value: 3
+
+---     Field: val2
+---     Type: double
+---     Modifier: 2
+---     Value: 0.2
+
+---     Field: val3
+---     Type: boolean
+---     Modifier: 2
+---     Value: true
+
+---  Recursive Inspection ---
+
+-----  Traversing Super Classes --------
+
+-----  Base Super Class --------
+--- Method: finalize
+---     Exception : java.lang.Throwable
+---     Return type : void
+---     Modifiers : 4
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Return type : void
+---     Modifiers : 17
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Parameter : long
+---     Parameter : int
+---     Return type : void
+---     Modifiers : 17
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Parameter : long
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: equals
+---     Parameter : java.lang.Object
+---     Return type : boolean
+---     Modifiers : 1
+
+
+--- Method: toString
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: hashCode
+---     Return type : int
+---     Modifiers : 257
+
+
+--- Method: getClass
+---     Return type : java.lang.Class
+---     Modifiers : 273
+
+
+--- Method: clone
+---     Exception : java.lang.CloneNotSupportedException
+---     Return type : java.lang.Object
+---     Modifiers : 260
+
+
+--- Method: notify
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: notifyAll
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: registerNatives
+---     Return type : void
+---     Modifiers : 266
+
+
+--- Constructor: java.lang.Object
+---     Modifiers : 1
+
+---     Field: val
+---     Type: int
+---     Modifier: 2
+---     Value: 3
+
+---     Field: val2
+---     Type: double
+---     Modifier: 2
+---     Value: 0.2
+
+---     Field: val3
+---     Type: boolean
+---     Modifier: 2
+---     Value: true
+
+---  Recursive Inspection ---
+
+-----   End of super class traversal    -----
+
+--Declaring Class: ClassA
+--Super Class: java.lang.Object
+
+--Interface : java.io.Serializable
+
+----- End of Interface traversal  -----
+
+
+--Interface : java.lang.Runnable
+
+-----  Interface methods --------
+--- Method: run
+---     Return type : void
+---     Modifiers : 1025
+
+
+
+----- End of Interface traversal  -----
+
+
+
+-----  Base class methods --------
+--- Method: run
+---     Return type : void
+---     Modifiers : 1
+
+
+--- Method: toString
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: setVal
+---     Exception : java.lang.Exception
+---     Parameter : int
+---     Return type : void
+---     Modifiers : 1
+
+
+--- Method: printSomething
+---     Return type : void
+---     Modifiers : 2
+
+
+--- Method: getVal
+---     Return type : int
+---     Modifiers : 1
+
+
+
+-----  Base class Constructors --------
+--- Constructor: ClassA
+---     Modifiers : 1
+
+--- Constructor: ClassA
+---     Parameter: int
+---     Modifiers : 1
+
+
+-----  Base class Fields --------
+---     Field: val
+---     Type: int
+---     Modifier: 2
+---     Value: 12
+
+---     Field: val2
+---     Type: double
+---     Modifier: 2
+---     Value: 0.2
+
+---     Field: val3
+---     Type: boolean
+---     Modifier: 2
+---     Value: true
+
+---  Recursive Inspection ---
+
+-----  Traversing Super Classes --------
+
+-----  Base Super Class --------
+--- Method: finalize
+---     Exception : java.lang.Throwable
+---     Return type : void
+---     Modifiers : 4
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Return type : void
+---     Modifiers : 17
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Parameter : long
+---     Parameter : int
+---     Return type : void
+---     Modifiers : 17
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Parameter : long
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: equals
+---     Parameter : java.lang.Object
+---     Return type : boolean
+---     Modifiers : 1
+
+
+--- Method: toString
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: hashCode
+---     Return type : int
+---     Modifiers : 257
+
+
+--- Method: getClass
+---     Return type : java.lang.Class
+---     Modifiers : 273
+
+
+--- Method: clone
+---     Exception : java.lang.CloneNotSupportedException
+---     Return type : java.lang.Object
+---     Modifiers : 260
+
+
+--- Method: notify
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: notifyAll
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: registerNatives
+---     Return type : void
+---     Modifiers : 266
+
+
+--- Constructor: java.lang.Object
+---     Modifiers : 1
+
+---     Field: val
+---     Type: int
+---     Modifier: 2
+---     Value: 12
+
+---     Field: val2
+---     Type: double
+---     Modifier: 2
+---     Value: 0.2
+
+---     Field: val3
+---     Type: boolean
+---     Modifier: 2
+---     Value: true
+
+---  Recursive Inspection ---
+
+-----   End of super class traversal    -----
+
+null
+
+-----  Traversing Super Classes --------
+
+-----  Base Super Class --------
+--- Method: run
+---     Return type : void
+---     Modifiers : 1
+
+
+--- Method: toString
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: func0
+---     Exception : java.lang.Exception
+---     Parameter : int
+---     Parameter : boolean
+---     Return type : void
+---     Modifiers : 1
+
+
+--- Method: func1
+---     Exception : java.lang.Exception
+---     Parameter : int
+---     Parameter : double
+---     Parameter : boolean
+---     Parameter : java.lang.String
+---     Return type : void
+---     Modifiers : 1
+
+
+--- Method: func3
+---     Parameter : int
+---     Return type : void
+---     Modifiers : 1025
+
+
+--- Method: func2
+---     Exception : java.lang.Exception
+---     Exception : java.lang.ArithmeticException
+---     Exception : java.lang.IllegalMonitorStateException
+---     Parameter : java.lang.String
+---     Return type : int
+---     Modifiers : 1
+
+
+--- Constructor: ClassC
+---     Modifiers : 1
+
+--- Constructor: ClassC
+---     Parameter: int
+---     Parameter: int
+---     Modifiers : 1
+
+---     Field: val
+---     Type: ClassA
+---     Modifier: 2
+---     Value: ClassA
+
+---     Field: val2
+---     Type: ClassA
+---     Modifier: 2
+---     Value: ClassA
+
+---     Field: val3
+---     Type: ClassA
+---     Modifier: 2
+---     Value: null
+
+---  Recursive Inspection ---
+--Declaring Class: ClassA
+--Super Class: java.lang.Object
+
+--Interface : java.io.Serializable
+
+----- End of Interface traversal  -----
+
+
+--Interface : java.lang.Runnable
+
+-----  Interface methods --------
+--- Method: run
+---     Return type : void
+---     Modifiers : 1025
+
+
+
+----- End of Interface traversal  -----
+
+
+
+-----  Base class methods --------
+--- Method: run
+---     Return type : void
+---     Modifiers : 1
+
+
+--- Method: toString
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: setVal
+---     Exception : java.lang.Exception
+---     Parameter : int
+---     Return type : void
+---     Modifiers : 1
+
+
+--- Method: printSomething
+---     Return type : void
+---     Modifiers : 2
+
+
+--- Method: getVal
+---     Return type : int
+---     Modifiers : 1
+
+
+
+-----  Base class Constructors --------
+--- Constructor: ClassA
+---     Modifiers : 1
+
+--- Constructor: ClassA
+---     Parameter: int
+---     Modifiers : 1
+
+
+-----  Base class Fields --------
+---     Field: val
+---     Type: int
+---     Modifier: 2
+---     Value: 3
+
+---     Field: val2
+---     Type: double
+---     Modifier: 2
+---     Value: 0.2
+
+---     Field: val3
+---     Type: boolean
+---     Modifier: 2
+---     Value: true
+
+---  Recursive Inspection ---
+
+-----  Traversing Super Classes --------
+
+-----  Base Super Class --------
+--- Method: finalize
+---     Exception : java.lang.Throwable
+---     Return type : void
+---     Modifiers : 4
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Return type : void
+---     Modifiers : 17
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Parameter : long
+---     Parameter : int
+---     Return type : void
+---     Modifiers : 17
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Parameter : long
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: equals
+---     Parameter : java.lang.Object
+---     Return type : boolean
+---     Modifiers : 1
+
+
+--- Method: toString
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: hashCode
+---     Return type : int
+---     Modifiers : 257
+
+
+--- Method: getClass
+---     Return type : java.lang.Class
+---     Modifiers : 273
+
+
+--- Method: clone
+---     Exception : java.lang.CloneNotSupportedException
+---     Return type : java.lang.Object
+---     Modifiers : 260
+
+
+--- Method: notify
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: notifyAll
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: registerNatives
+---     Return type : void
+---     Modifiers : 266
+
+
+--- Constructor: java.lang.Object
+---     Modifiers : 1
+
+---     Field: val
+---     Type: int
+---     Modifier: 2
+---     Value: 3
+
+---     Field: val2
+---     Type: double
+---     Modifier: 2
+---     Value: 0.2
+
+---     Field: val3
+---     Type: boolean
+---     Modifier: 2
+---     Value: true
+
+---  Recursive Inspection ---
+
+-----   End of super class traversal    -----
+
+--Declaring Class: ClassA
+--Super Class: java.lang.Object
+
+--Interface : java.io.Serializable
+
+----- End of Interface traversal  -----
+
+
+--Interface : java.lang.Runnable
+
+-----  Interface methods --------
+--- Method: run
+---     Return type : void
+---     Modifiers : 1025
+
+
+
+----- End of Interface traversal  -----
+
+
+
+-----  Base class methods --------
+--- Method: run
+---     Return type : void
+---     Modifiers : 1
+
+
+--- Method: toString
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: setVal
+---     Exception : java.lang.Exception
+---     Parameter : int
+---     Return type : void
+---     Modifiers : 1
+
+
+--- Method: printSomething
+---     Return type : void
+---     Modifiers : 2
+
+
+--- Method: getVal
+---     Return type : int
+---     Modifiers : 1
+
+
+
+-----  Base class Constructors --------
+--- Constructor: ClassA
+---     Modifiers : 1
+
+--- Constructor: ClassA
+---     Parameter: int
+---     Modifiers : 1
+
+
+-----  Base class Fields --------
+---     Field: val
+---     Type: int
+---     Modifier: 2
+---     Value: 12
+
+---     Field: val2
+---     Type: double
+---     Modifier: 2
+---     Value: 0.2
+
+---     Field: val3
+---     Type: boolean
+---     Modifier: 2
+---     Value: true
+
+---  Recursive Inspection ---
+
+-----  Traversing Super Classes --------
+
+-----  Base Super Class --------
+--- Method: finalize
+---     Exception : java.lang.Throwable
+---     Return type : void
+---     Modifiers : 4
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Return type : void
+---     Modifiers : 17
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Parameter : long
+---     Parameter : int
+---     Return type : void
+---     Modifiers : 17
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Parameter : long
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: equals
+---     Parameter : java.lang.Object
+---     Return type : boolean
+---     Modifiers : 1
+
+
+--- Method: toString
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: hashCode
+---     Return type : int
+---     Modifiers : 257
+
+
+--- Method: getClass
+---     Return type : java.lang.Class
+---     Modifiers : 273
+
+
+--- Method: clone
+---     Exception : java.lang.CloneNotSupportedException
+---     Return type : java.lang.Object
+---     Modifiers : 260
+
+
+--- Method: notify
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: notifyAll
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: registerNatives
+---     Return type : void
+---     Modifiers : 266
+
+
+--- Constructor: java.lang.Object
+---     Modifiers : 1
+
+---     Field: val
+---     Type: int
+---     Modifier: 2
+---     Value: 12
+
+---     Field: val2
+---     Type: double
+---     Modifier: 2
+---     Value: 0.2
+
+---     Field: val3
+---     Type: boolean
+---     Modifier: 2
+---     Value: true
+
+---  Recursive Inspection ---
+
+-----   End of super class traversal    -----
+
+null
+
+-----  Recursive Super Classes --------
+
+----- ClassD --------
+--- Method: toString
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: getVal3
+---     Return type : int
+---     Modifiers : 1
+
+
+--- Constructor: ClassD
+---     Modifiers : 1
+
+--- Constructor: ClassD
+---     Parameter: int
+---     Modifiers : 1
+
+---     Field: val
+---     Type: ClassA
+---     Modifier: 2
+---     Value: ClassA
+
+---     Field: val2
+---     Type: ClassA
+---     Modifier: 10
+---     Value: null
+
+---     Field: val3
+---     Type: int
+---     Modifier: 2
+---     Value: 34
+
+---     Field: vallarray
+---     Type: [LClassA;
+---     Modifier: 2
+---     Value: [LClassA;@a57993
+
+---  Recursive Inspection ---
+--Declaring Class: ClassA
+--Super Class: java.lang.Object
+
+--Interface : java.io.Serializable
+
+----- End of Interface traversal  -----
+
+
+--Interface : java.lang.Runnable
+
+-----  Interface methods --------
+--- Method: run
+---     Return type : void
+---     Modifiers : 1025
+
+
+
+----- End of Interface traversal  -----
+
+
+
+-----  Base class methods --------
+--- Method: run
+---     Return type : void
+---     Modifiers : 1
+
+
+--- Method: toString
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: setVal
+---     Exception : java.lang.Exception
+---     Parameter : int
+---     Return type : void
+---     Modifiers : 1
+
+
+--- Method: printSomething
+---     Return type : void
+---     Modifiers : 2
+
+
+--- Method: getVal
+---     Return type : int
+---     Modifiers : 1
+
+
+
+-----  Base class Constructors --------
+--- Constructor: ClassA
+---     Modifiers : 1
+
+--- Constructor: ClassA
+---     Parameter: int
+---     Modifiers : 1
+
+
+-----  Base class Fields --------
+---     Field: val
+---     Type: int
+---     Modifier: 2
+---     Value: 17
+
+---     Field: val2
+---     Type: double
+---     Modifier: 2
+---     Value: 0.2
+
+---     Field: val3
+---     Type: boolean
+---     Modifier: 2
+---     Value: true
+
+---  Recursive Inspection ---
+
+-----  Traversing Super Classes --------
+
+-----  Base Super Class --------
+--- Method: finalize
+---     Exception : java.lang.Throwable
+---     Return type : void
+---     Modifiers : 4
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Return type : void
+---     Modifiers : 17
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Parameter : long
+---     Parameter : int
+---     Return type : void
+---     Modifiers : 17
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Parameter : long
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: equals
+---     Parameter : java.lang.Object
+---     Return type : boolean
+---     Modifiers : 1
+
+
+--- Method: toString
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: hashCode
+---     Return type : int
+---     Modifiers : 257
+
+
+--- Method: getClass
+---     Return type : java.lang.Class
+---     Modifiers : 273
+
+
+--- Method: clone
+---     Exception : java.lang.CloneNotSupportedException
+---     Return type : java.lang.Object
+---     Modifiers : 260
+
+
+--- Method: notify
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: notifyAll
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: registerNatives
+---     Return type : void
+---     Modifiers : 266
+
+
+--- Constructor: java.lang.Object
+---     Modifiers : 1
+
+---     Field: val
+---     Type: int
+---     Modifier: 2
+---     Value: 17
+
+---     Field: val2
+---     Type: double
+---     Modifier: 2
+---     Value: 0.2
+
+---     Field: val3
+---     Type: boolean
+---     Modifier: 2
+---     Value: true
+
+---  Recursive Inspection ---
+
+-----   End of super class traversal    -----
+
+null
+
+----- java.lang.Object --------
+--- Method: finalize
+---     Exception : java.lang.Throwable
+---     Return type : void
+---     Modifiers : 4
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Return type : void
+---     Modifiers : 17
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Parameter : long
+---     Parameter : int
+---     Return type : void
+---     Modifiers : 17
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Parameter : long
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: equals
+---     Parameter : java.lang.Object
+---     Return type : boolean
+---     Modifiers : 1
+
+
+--- Method: toString
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: hashCode
+---     Return type : int
+---     Modifiers : 257
+
+
+--- Method: getClass
+---     Return type : java.lang.Class
+---     Modifiers : 273
+
+
+--- Method: clone
+---     Exception : java.lang.CloneNotSupportedException
+---     Return type : java.lang.Object
+---     Modifiers : 260
+
+
+--- Method: notify
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: notifyAll
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: registerNatives
+---     Return type : void
+---     Modifiers : 266
+
+
+--- Constructor: java.lang.Object
+---     Modifiers : 1
+
+---  Recursive Inspection ---
+
+-----   End of super class traversal    -----
+
+======================================================
+======================================================
+Running Test: ClassD
+--Declaring Class: ClassD
+--Super Class: java.lang.Object
+
+
+-----  Base class methods --------
+--- Method: toString
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: getVal3
+---     Return type : int
+---     Modifiers : 1
+
+
+
+-----  Base class Constructors --------
+--- Constructor: ClassD
+---     Modifiers : 1
+
+--- Constructor: ClassD
+---     Parameter: int
+---     Modifiers : 1
+
+
+-----  Base class Fields --------
+---     Field: val
+---     Type: ClassA
+---     Modifier: 2
+---     Value: ClassA
+
+---     Field: val2
+---     Type: ClassA
+---     Modifier: 10
+---     Value: null
+
+---     Field: val3
+---     Type: int
+---     Modifier: 2
+---     Value: 32
+
+---     Field: vallarray
+---     Type: [LClassA;
+---     Modifier: 2
+---     Value: [LClassA;@1b84c92
+
+---  Recursive Inspection ---
+--Declaring Class: ClassA
+--Super Class: java.lang.Object
+
+--Interface : java.io.Serializable
+
+----- End of Interface traversal  -----
+
+
+--Interface : java.lang.Runnable
+
+-----  Interface methods --------
+--- Method: run
+---     Return type : void
+---     Modifiers : 1025
+
+
+
+----- End of Interface traversal  -----
+
+
+
+-----  Base class methods --------
+--- Method: run
+---     Return type : void
+---     Modifiers : 1
+
+
+--- Method: toString
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: setVal
+---     Exception : java.lang.Exception
+---     Parameter : int
+---     Return type : void
+---     Modifiers : 1
+
+
+--- Method: printSomething
+---     Return type : void
+---     Modifiers : 2
+
+
+--- Method: getVal
+---     Return type : int
+---     Modifiers : 1
+
+
+
+-----  Base class Constructors --------
+--- Constructor: ClassA
+---     Modifiers : 1
+
+--- Constructor: ClassA
+---     Parameter: int
+---     Modifiers : 1
+
+
+-----  Base class Fields --------
+---     Field: val
+---     Type: int
+---     Modifier: 2
+---     Value: 17
+
+---     Field: val2
+---     Type: double
+---     Modifier: 2
+---     Value: 0.2
+
+---     Field: val3
+---     Type: boolean
+---     Modifier: 2
+---     Value: true
+
+---  Recursive Inspection ---
+
+-----  Traversing Super Classes --------
+
+-----  Base Super Class --------
+--- Method: finalize
+---     Exception : java.lang.Throwable
+---     Return type : void
+---     Modifiers : 4
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Return type : void
+---     Modifiers : 17
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Parameter : long
+---     Parameter : int
+---     Return type : void
+---     Modifiers : 17
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Parameter : long
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: equals
+---     Parameter : java.lang.Object
+---     Return type : boolean
+---     Modifiers : 1
+
+
+--- Method: toString
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: hashCode
+---     Return type : int
+---     Modifiers : 257
+
+
+--- Method: getClass
+---     Return type : java.lang.Class
+---     Modifiers : 273
+
+
+--- Method: clone
+---     Exception : java.lang.CloneNotSupportedException
+---     Return type : java.lang.Object
+---     Modifiers : 260
+
+
+--- Method: notify
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: notifyAll
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: registerNatives
+---     Return type : void
+---     Modifiers : 266
+
+
+--- Constructor: java.lang.Object
+---     Modifiers : 1
+
+---     Field: val
+---     Type: int
+---     Modifier: 2
+---     Value: 17
+
+---     Field: val2
+---     Type: double
+---     Modifier: 2
+---     Value: 0.2
+
+---     Field: val3
+---     Type: boolean
+---     Modifier: 2
+---     Value: true
+
+---  Recursive Inspection ---
+
+-----   End of super class traversal    -----
+
+null
+
+-----  Traversing Super Classes --------
+
+-----  Base Super Class --------
+--- Method: finalize
+---     Exception : java.lang.Throwable
+---     Return type : void
+---     Modifiers : 4
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Return type : void
+---     Modifiers : 17
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Parameter : long
+---     Parameter : int
+---     Return type : void
+---     Modifiers : 17
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Parameter : long
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: equals
+---     Parameter : java.lang.Object
+---     Return type : boolean
+---     Modifiers : 1
+
+
+--- Method: toString
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: hashCode
+---     Return type : int
+---     Modifiers : 257
+
+
+--- Method: getClass
+---     Return type : java.lang.Class
+---     Modifiers : 273
+
+
+--- Method: clone
+---     Exception : java.lang.CloneNotSupportedException
+---     Return type : java.lang.Object
+---     Modifiers : 260
+
+
+--- Method: notify
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: notifyAll
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: registerNatives
+---     Return type : void
+---     Modifiers : 266
+
+
+--- Constructor: java.lang.Object
+---     Modifiers : 1
+
+---     Field: val
+---     Type: ClassA
+---     Modifier: 2
+---     Value: ClassA
+
+---     Field: val2
+---     Type: ClassA
+---     Modifier: 10
+---     Value: null
+
+---     Field: val3
+---     Type: int
+---     Modifier: 2
+---     Value: 32
+
+---     Field: vallarray
+---     Type: [LClassA;
+---     Modifier: 2
+---     Value: [LClassA;@1b84c92
+
+---  Recursive Inspection ---
+--Declaring Class: ClassA
+--Super Class: java.lang.Object
+
+--Interface : java.io.Serializable
+
+----- End of Interface traversal  -----
+
+
+--Interface : java.lang.Runnable
+
+-----  Interface methods --------
+--- Method: run
+---     Return type : void
+---     Modifiers : 1025
+
+
+
+----- End of Interface traversal  -----
+
+
+
+-----  Base class methods --------
+--- Method: run
+---     Return type : void
+---     Modifiers : 1
+
+
+--- Method: toString
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: setVal
+---     Exception : java.lang.Exception
+---     Parameter : int
+---     Return type : void
+---     Modifiers : 1
+
+
+--- Method: printSomething
+---     Return type : void
+---     Modifiers : 2
+
+
+--- Method: getVal
+---     Return type : int
+---     Modifiers : 1
+
+
+
+-----  Base class Constructors --------
+--- Constructor: ClassA
+---     Modifiers : 1
+
+--- Constructor: ClassA
+---     Parameter: int
+---     Modifiers : 1
+
+
+-----  Base class Fields --------
+---     Field: val
+---     Type: int
+---     Modifier: 2
+---     Value: 17
+
+---     Field: val2
+---     Type: double
+---     Modifier: 2
+---     Value: 0.2
+
+---     Field: val3
+---     Type: boolean
+---     Modifier: 2
+---     Value: true
+
+---  Recursive Inspection ---
+
+-----  Traversing Super Classes --------
+
+-----  Base Super Class --------
+--- Method: finalize
+---     Exception : java.lang.Throwable
+---     Return type : void
+---     Modifiers : 4
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Return type : void
+---     Modifiers : 17
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Parameter : long
+---     Parameter : int
+---     Return type : void
+---     Modifiers : 17
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Parameter : long
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: equals
+---     Parameter : java.lang.Object
+---     Return type : boolean
+---     Modifiers : 1
+
+
+--- Method: toString
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: hashCode
+---     Return type : int
+---     Modifiers : 257
+
+
+--- Method: getClass
+---     Return type : java.lang.Class
+---     Modifiers : 273
+
+
+--- Method: clone
+---     Exception : java.lang.CloneNotSupportedException
+---     Return type : java.lang.Object
+---     Modifiers : 260
+
+
+--- Method: notify
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: notifyAll
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: registerNatives
+---     Return type : void
+---     Modifiers : 266
+
+
+--- Constructor: java.lang.Object
+---     Modifiers : 1
+
+---     Field: val
+---     Type: int
+---     Modifier: 2
+---     Value: 17
+
+---     Field: val2
+---     Type: double
+---     Modifier: 2
+---     Value: 0.2
+
+---     Field: val3
+---     Type: boolean
+---     Modifier: 2
+---     Value: true
+
+---  Recursive Inspection ---
+
+-----   End of super class traversal    -----
+
+null
+
+-----   End of super class traversal    -----
+
+======================================================
+======================================================
+Running Test: ClassD
+--Declaring Class: ClassD
+--Super Class: java.lang.Object
+
+
+-----  Base class methods --------
+--- Method: toString
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: getVal3
+---     Return type : int
+---     Modifiers : 1
+
+
+
+-----  Base class Constructors --------
+--- Constructor: ClassD
+---     Modifiers : 1
+
+--- Constructor: ClassD
+---     Parameter: int
+---     Modifiers : 1
+
+
+-----  Base class Fields --------
+---     Field: val
+---     Type: ClassA
+---     Modifier: 2
+---     Value: ClassA
+
+---     Field: val2
+---     Type: ClassA
+---     Modifier: 10
+---     Value: null
+
+---     Field: val3
+---     Type: int
+---     Modifier: 2
+---     Value: 34
+
+---     Field: vallarray
+---     Type: [LClassA;
+---     Modifier: 2
+---     Value: [LClassA;@1c7c054
+
+---  Recursive Inspection ---
+--Declaring Class: ClassA
+--Super Class: java.lang.Object
+
+--Interface : java.io.Serializable
+
+----- End of Interface traversal  -----
+
+
+--Interface : java.lang.Runnable
+
+-----  Interface methods --------
+--- Method: run
+---     Return type : void
+---     Modifiers : 1025
+
+
+
+----- End of Interface traversal  -----
+
+
+
+-----  Base class methods --------
+--- Method: run
+---     Return type : void
+---     Modifiers : 1
+
+
+--- Method: toString
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: setVal
+---     Exception : java.lang.Exception
+---     Parameter : int
+---     Return type : void
+---     Modifiers : 1
+
+
+--- Method: printSomething
+---     Return type : void
+---     Modifiers : 2
+
+
+--- Method: getVal
+---     Return type : int
+---     Modifiers : 1
+
+
+
+-----  Base class Constructors --------
+--- Constructor: ClassA
+---     Modifiers : 1
+
+--- Constructor: ClassA
+---     Parameter: int
+---     Modifiers : 1
+
+
+-----  Base class Fields --------
+---     Field: val
+---     Type: int
+---     Modifier: 2
+---     Value: 17
+
+---     Field: val2
+---     Type: double
+---     Modifier: 2
+---     Value: 0.2
+
+---     Field: val3
+---     Type: boolean
+---     Modifier: 2
+---     Value: true
+
+---  Recursive Inspection ---
+
+-----  Traversing Super Classes --------
+
+-----  Base Super Class --------
+--- Method: finalize
+---     Exception : java.lang.Throwable
+---     Return type : void
+---     Modifiers : 4
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Return type : void
+---     Modifiers : 17
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Parameter : long
+---     Parameter : int
+---     Return type : void
+---     Modifiers : 17
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Parameter : long
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: equals
+---     Parameter : java.lang.Object
+---     Return type : boolean
+---     Modifiers : 1
+
+
+--- Method: toString
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: hashCode
+---     Return type : int
+---     Modifiers : 257
+
+
+--- Method: getClass
+---     Return type : java.lang.Class
+---     Modifiers : 273
+
+
+--- Method: clone
+---     Exception : java.lang.CloneNotSupportedException
+---     Return type : java.lang.Object
+---     Modifiers : 260
+
+
+--- Method: notify
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: notifyAll
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: registerNatives
+---     Return type : void
+---     Modifiers : 266
+
+
+--- Constructor: java.lang.Object
+---     Modifiers : 1
+
+---     Field: val
+---     Type: int
+---     Modifier: 2
+---     Value: 17
+
+---     Field: val2
+---     Type: double
+---     Modifier: 2
+---     Value: 0.2
+
+---     Field: val3
+---     Type: boolean
+---     Modifier: 2
+---     Value: true
+
+---  Recursive Inspection ---
+
+-----   End of super class traversal    -----
+
+null
+
+-----  Traversing Super Classes --------
+
+-----  Base Super Class --------
+--- Method: finalize
+---     Exception : java.lang.Throwable
+---     Return type : void
+---     Modifiers : 4
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Return type : void
+---     Modifiers : 17
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Parameter : long
+---     Parameter : int
+---     Return type : void
+---     Modifiers : 17
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Parameter : long
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: equals
+---     Parameter : java.lang.Object
+---     Return type : boolean
+---     Modifiers : 1
+
+
+--- Method: toString
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: hashCode
+---     Return type : int
+---     Modifiers : 257
+
+
+--- Method: getClass
+---     Return type : java.lang.Class
+---     Modifiers : 273
+
+
+--- Method: clone
+---     Exception : java.lang.CloneNotSupportedException
+---     Return type : java.lang.Object
+---     Modifiers : 260
+
+
+--- Method: notify
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: notifyAll
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: registerNatives
+---     Return type : void
+---     Modifiers : 266
+
+
+--- Constructor: java.lang.Object
+---     Modifiers : 1
+
+---     Field: val
+---     Type: ClassA
+---     Modifier: 2
+---     Value: ClassA
+
+---     Field: val2
+---     Type: ClassA
+---     Modifier: 10
+---     Value: null
+
+---     Field: val3
+---     Type: int
+---     Modifier: 2
+---     Value: 34
+
+---     Field: vallarray
+---     Type: [LClassA;
+---     Modifier: 2
+---     Value: [LClassA;@1c7c054
+
+---  Recursive Inspection ---
+--Declaring Class: ClassA
+--Super Class: java.lang.Object
+
+--Interface : java.io.Serializable
+
+----- End of Interface traversal  -----
+
+
+--Interface : java.lang.Runnable
+
+-----  Interface methods --------
+--- Method: run
+---     Return type : void
+---     Modifiers : 1025
+
+
+
+----- End of Interface traversal  -----
+
+
+
+-----  Base class methods --------
+--- Method: run
+---     Return type : void
+---     Modifiers : 1
+
+
+--- Method: toString
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: setVal
+---     Exception : java.lang.Exception
+---     Parameter : int
+---     Return type : void
+---     Modifiers : 1
+
+
+--- Method: printSomething
+---     Return type : void
+---     Modifiers : 2
+
+
+--- Method: getVal
+---     Return type : int
+---     Modifiers : 1
+
+
+
+-----  Base class Constructors --------
+--- Constructor: ClassA
+---     Modifiers : 1
+
+--- Constructor: ClassA
+---     Parameter: int
+---     Modifiers : 1
+
+
+-----  Base class Fields --------
+---     Field: val
+---     Type: int
+---     Modifier: 2
+---     Value: 17
+
+---     Field: val2
+---     Type: double
+---     Modifier: 2
+---     Value: 0.2
+
+---     Field: val3
+---     Type: boolean
+---     Modifier: 2
+---     Value: true
+
+---  Recursive Inspection ---
+
+-----  Traversing Super Classes --------
+
+-----  Base Super Class --------
+--- Method: finalize
+---     Exception : java.lang.Throwable
+---     Return type : void
+---     Modifiers : 4
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Return type : void
+---     Modifiers : 17
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Parameter : long
+---     Parameter : int
+---     Return type : void
+---     Modifiers : 17
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Parameter : long
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: equals
+---     Parameter : java.lang.Object
+---     Return type : boolean
+---     Modifiers : 1
+
+
+--- Method: toString
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: hashCode
+---     Return type : int
+---     Modifiers : 257
+
+
+--- Method: getClass
+---     Return type : java.lang.Class
+---     Modifiers : 273
+
+
+--- Method: clone
+---     Exception : java.lang.CloneNotSupportedException
+---     Return type : java.lang.Object
+---     Modifiers : 260
+
+
+--- Method: notify
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: notifyAll
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: registerNatives
+---     Return type : void
+---     Modifiers : 266
+
+
+--- Constructor: java.lang.Object
+---     Modifiers : 1
+
+---     Field: val
+---     Type: int
+---     Modifier: 2
+---     Value: 17
+
+---     Field: val2
+---     Type: double
+---     Modifier: 2
+---     Value: 0.2
+
+---     Field: val3
+---     Type: boolean
+---     Modifier: 2
+---     Value: true
+
+---  Recursive Inspection ---
+
+-----   End of super class traversal    -----
+
+null
+
+-----   End of super class traversal    -----
+
+======================================================
+======================================================
+Running Test: [LClassB;@12204a1
+--Declaring Class: [LClassB;
+--Super Class: java.lang.Object
+
+--Interface : java.lang.Cloneable
+
+----- End of Interface traversal  -----
+
+
+--Interface : java.io.Serializable
+
+----- End of Interface traversal  -----
+
+
+
+-----  Base class methods --------
+
+-----  Base class Constructors --------
+
+-----  Base class Fields --------
+---  Recursive Inspection ---
+
+-----  Traversing Super Classes --------
+
+-----  Base Super Class --------
+--- Method: finalize
+---     Exception : java.lang.Throwable
+---     Return type : void
+---     Modifiers : 4
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Return type : void
+---     Modifiers : 17
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Parameter : long
+---     Parameter : int
+---     Return type : void
+---     Modifiers : 17
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Parameter : long
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: equals
+---     Parameter : java.lang.Object
+---     Return type : boolean
+---     Modifiers : 1
+
+
+--- Method: toString
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: hashCode
+---     Return type : int
+---     Modifiers : 257
+
+
+--- Method: getClass
+---     Return type : java.lang.Class
+---     Modifiers : 273
+
+
+--- Method: clone
+---     Exception : java.lang.CloneNotSupportedException
+---     Return type : java.lang.Object
+---     Modifiers : 260
+
+
+--- Method: notify
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: notifyAll
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: registerNatives
+---     Return type : void
+---     Modifiers : 266
+
+
+--- Constructor: java.lang.Object
+---     Modifiers : 1
+
+---  Recursive Inspection ---
+
+-----   End of super class traversal    -----
+
+---Array of Type: class ClassB
+---Array of length: 12
+Element 0: null
+Element 1: null
+Element 2: null
+Element 3: null
+Element 4: null
+Element 5: null
+Element 6: null
+Element 7: null
+Element 8: null
+Element 9: null
+Element 10: null
+Element 11: null
+======================================================
+======================================================
+Running Test: [[LClassB;@d93b30
+--Declaring Class: [[LClassB;
+--Super Class: java.lang.Object
+
+--Interface : java.lang.Cloneable
+
+----- End of Interface traversal  -----
+
+
+--Interface : java.io.Serializable
+
+----- End of Interface traversal  -----
+
+
+
+-----  Base class methods --------
+
+-----  Base class Constructors --------
+
+-----  Base class Fields --------
+---  Recursive Inspection ---
+
+-----  Traversing Super Classes --------
+
+-----  Base Super Class --------
+--- Method: finalize
+---     Exception : java.lang.Throwable
+---     Return type : void
+---     Modifiers : 4
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Return type : void
+---     Modifiers : 17
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Parameter : long
+---     Parameter : int
+---     Return type : void
+---     Modifiers : 17
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Parameter : long
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: equals
+---     Parameter : java.lang.Object
+---     Return type : boolean
+---     Modifiers : 1
+
+
+--- Method: toString
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: hashCode
+---     Return type : int
+---     Modifiers : 257
+
+
+--- Method: getClass
+---     Return type : java.lang.Class
+---     Modifiers : 273
+
+
+--- Method: clone
+---     Exception : java.lang.CloneNotSupportedException
+---     Return type : java.lang.Object
+---     Modifiers : 260
+
+
+--- Method: notify
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: notifyAll
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: registerNatives
+---     Return type : void
+---     Modifiers : 266
+
+
+--- Constructor: java.lang.Object
+---     Modifiers : 1
+
+---  Recursive Inspection ---
+
+-----   End of super class traversal    -----
+
+---Array of Type: class [LClassB;
+---Array of length: 12
+Element 0: [LClassB;@154617c
+Element 1: [LClassB;@a14482
+Element 2: [LClassB;@140e19d
+Element 3: [LClassB;@17327b6
+Element 4: [LClassB;@14ae5a5
+Element 5: [LClassB;@131245a
+Element 6: [LClassB;@16f6e28
+Element 7: [LClassB;@15fbaa4
+Element 8: [LClassB;@1ee12a7
+Element 9: [LClassB;@10bedb4
+Element 10: [LClassB;@103dbd3
+Element 11: [LClassB;@167cf4d
+======================================================
+======================================================
+Running Test: Test String
+--Declaring Class: java.lang.String
+--Super Class: java.lang.Object
+
+--Interface : java.io.Serializable
+
+----- End of Interface traversal  -----
+
+
+--Interface : java.lang.Comparable
+
+-----  Interface methods --------
+--- Method: compareTo
+---     Parameter : java.lang.Object
+---     Return type : int
+---     Modifiers : 1025
+
+
+
+----- End of Interface traversal  -----
+
+
+--Interface : java.lang.CharSequence
+
+-----  Interface methods --------
+--- Method: toString
+---     Return type : java.lang.String
+---     Modifiers : 1025
+
+
+--- Method: charAt
+---     Parameter : int
+---     Return type : char
+---     Modifiers : 1025
+
+
+--- Method: length
+---     Return type : int
+---     Modifiers : 1025
+
+
+--- Method: subSequence
+---     Parameter : int
+---     Parameter : int
+---     Return type : java.lang.CharSequence
+---     Modifiers : 1025
+
+
+--- Method: chars
+---     Return type : java.util.stream.IntStream
+---     Modifiers : 1
+
+
+--- Method: codePoints
+---     Return type : java.util.stream.IntStream
+---     Modifiers : 1
+
+
+--- Method: lambda$chars$0
+---     Return type : java.util.Spliterator$OfInt
+---     Modifiers : 4098
+
+
+--- Method: lambda$codePoints$1
+---     Return type : java.util.Spliterator$OfInt
+---     Modifiers : 4098
+
+
+
+----- End of Interface traversal  -----
+
+
+
+-----  Base class methods --------
+--- Method: equals
+---     Parameter : java.lang.Object
+---     Return type : boolean
+---     Modifiers : 1
+
+
+--- Method: toString
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: hashCode
+---     Return type : int
+---     Modifiers : 1
+
+
+--- Method: compareTo
+---     Parameter : java.lang.String
+---     Return type : int
+---     Modifiers : 1
+
+
+--- Method: compareTo
+---     Parameter : java.lang.Object
+---     Return type : int
+---     Modifiers : 4161
+
+
+--- Method: indexOf
+---     Parameter : java.lang.String
+---     Parameter : int
+---     Return type : int
+---     Modifiers : 1
+
+
+--- Method: indexOf
+---     Parameter : java.lang.String
+---     Return type : int
+---     Modifiers : 1
+
+
+--- Method: indexOf
+---     Parameter : int
+---     Parameter : int
+---     Return type : int
+---     Modifiers : 1
+
+
+--- Method: indexOf
+---     Parameter : int
+---     Return type : int
+---     Modifiers : 1
+
+
+--- Method: indexOf
+---     Parameter : [C
+---     Parameter : int
+---     Parameter : int
+---     Parameter : [C
+---     Parameter : int
+---     Parameter : int
+---     Parameter : int
+---     Return type : int
+---     Modifiers : 8
+
+
+--- Method: indexOf
+---     Parameter : [C
+---     Parameter : int
+---     Parameter : int
+---     Parameter : java.lang.String
+---     Parameter : int
+---     Return type : int
+---     Modifiers : 8
+
+
+--- Method: valueOf
+---     Parameter : int
+---     Return type : java.lang.String
+---     Modifiers : 9
+
+
+--- Method: valueOf
+---     Parameter : long
+---     Return type : java.lang.String
+---     Modifiers : 9
+
+
+--- Method: valueOf
+---     Parameter : float
+---     Return type : java.lang.String
+---     Modifiers : 9
+
+
+--- Method: valueOf
+---     Parameter : boolean
+---     Return type : java.lang.String
+---     Modifiers : 9
+
+
+--- Method: valueOf
+---     Parameter : [C
+---     Return type : java.lang.String
+---     Modifiers : 9
+
+
+--- Method: valueOf
+---     Parameter : [C
+---     Parameter : int
+---     Parameter : int
+---     Return type : java.lang.String
+---     Modifiers : 9
+
+
+--- Method: valueOf
+---     Parameter : java.lang.Object
+---     Return type : java.lang.String
+---     Modifiers : 9
+
+
+--- Method: valueOf
+---     Parameter : char
+---     Return type : java.lang.String
+---     Modifiers : 9
+
+
+--- Method: valueOf
+---     Parameter : double
+---     Return type : java.lang.String
+---     Modifiers : 9
+
+
+--- Method: charAt
+---     Parameter : int
+---     Return type : char
+---     Modifiers : 1
+
+
+--- Method: checkBounds
+---     Parameter : [B
+---     Parameter : int
+---     Parameter : int
+---     Return type : void
+---     Modifiers : 10
+
+
+--- Method: codePointAt
+---     Parameter : int
+---     Return type : int
+---     Modifiers : 1
+
+
+--- Method: codePointBefore
+---     Parameter : int
+---     Return type : int
+---     Modifiers : 1
+
+
+--- Method: codePointCount
+---     Parameter : int
+---     Parameter : int
+---     Return type : int
+---     Modifiers : 1
+
+
+--- Method: compareToIgnoreCase
+---     Parameter : java.lang.String
+---     Return type : int
+---     Modifiers : 1
+
+
+--- Method: concat
+---     Parameter : java.lang.String
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: contains
+---     Parameter : java.lang.CharSequence
+---     Return type : boolean
+---     Modifiers : 1
+
+
+--- Method: contentEquals
+---     Parameter : java.lang.CharSequence
+---     Return type : boolean
+---     Modifiers : 1
+
+
+--- Method: contentEquals
+---     Parameter : java.lang.StringBuffer
+---     Return type : boolean
+---     Modifiers : 1
+
+
+--- Method: copyValueOf
+---     Parameter : [C
+---     Return type : java.lang.String
+---     Modifiers : 9
+
+
+--- Method: copyValueOf
+---     Parameter : [C
+---     Parameter : int
+---     Parameter : int
+---     Return type : java.lang.String
+---     Modifiers : 9
+
+
+--- Method: endsWith
+---     Parameter : java.lang.String
+---     Return type : boolean
+---     Modifiers : 1
+
+
+--- Method: equalsIgnoreCase
+---     Parameter : java.lang.String
+---     Return type : boolean
+---     Modifiers : 1
+
+
+--- Method: format
+---     Parameter : java.util.Locale
+---     Parameter : java.lang.String
+---     Parameter : [Ljava.lang.Object;
+---     Return type : java.lang.String
+---     Modifiers : 137
+
+
+--- Method: format
+---     Parameter : java.lang.String
+---     Parameter : [Ljava.lang.Object;
+---     Return type : java.lang.String
+---     Modifiers : 137
+
+
+--- Method: getBytes
+---     Parameter : int
+---     Parameter : int
+---     Parameter : [B
+---     Parameter : int
+---     Return type : void
+---     Modifiers : 1
+
+
+--- Method: getBytes
+---     Parameter : java.nio.charset.Charset
+---     Return type : [B
+---     Modifiers : 1
+
+
+--- Method: getBytes
+---     Exception : java.io.UnsupportedEncodingException
+---     Parameter : java.lang.String
+---     Return type : [B
+---     Modifiers : 1
+
+
+--- Method: getBytes
+---     Return type : [B
+---     Modifiers : 1
+
+
+--- Method: getChars
+---     Parameter : int
+---     Parameter : int
+---     Parameter : [C
+---     Parameter : int
+---     Return type : void
+---     Modifiers : 1
+
+
+--- Method: getChars
+---     Parameter : [C
+---     Parameter : int
+---     Return type : void
+---     Modifiers : 0
+
+
+--- Method: indexOfSupplementary
+---     Parameter : int
+---     Parameter : int
+---     Return type : int
+---     Modifiers : 2
+
+
+--- Method: intern
+---     Return type : java.lang.String
+---     Modifiers : 257
+
+
+--- Method: isEmpty
+---     Return type : boolean
+---     Modifiers : 1
+
+
+--- Method: join
+---     Parameter : java.lang.CharSequence
+---     Parameter : [Ljava.lang.CharSequence;
+---     Return type : java.lang.String
+---     Modifiers : 137
+
+
+--- Method: join
+---     Parameter : java.lang.CharSequence
+---     Parameter : java.lang.Iterable
+---     Return type : java.lang.String
+---     Modifiers : 9
+
+
+--- Method: lastIndexOf
+---     Parameter : int
+---     Return type : int
+---     Modifiers : 1
+
+
+--- Method: lastIndexOf
+---     Parameter : java.lang.String
+---     Return type : int
+---     Modifiers : 1
+
+
+--- Method: lastIndexOf
+---     Parameter : [C
+---     Parameter : int
+---     Parameter : int
+---     Parameter : java.lang.String
+---     Parameter : int
+---     Return type : int
+---     Modifiers : 8
+
+
+--- Method: lastIndexOf
+---     Parameter : java.lang.String
+---     Parameter : int
+---     Return type : int
+---     Modifiers : 1
+
+
+--- Method: lastIndexOf
+---     Parameter : int
+---     Parameter : int
+---     Return type : int
+---     Modifiers : 1
+
+
+--- Method: lastIndexOf
+---     Parameter : [C
+---     Parameter : int
+---     Parameter : int
+---     Parameter : [C
+---     Parameter : int
+---     Parameter : int
+---     Parameter : int
+---     Return type : int
+---     Modifiers : 8
+
+
+--- Method: lastIndexOfSupplementary
+---     Parameter : int
+---     Parameter : int
+---     Return type : int
+---     Modifiers : 2
+
+
+--- Method: length
+---     Return type : int
+---     Modifiers : 1
+
+
+--- Method: matches
+---     Parameter : java.lang.String
+---     Return type : boolean
+---     Modifiers : 1
+
+
+--- Method: nonSyncContentEquals
+---     Parameter : java.lang.AbstractStringBuilder
+---     Return type : boolean
+---     Modifiers : 2
+
+
+--- Method: offsetByCodePoints
+---     Parameter : int
+---     Parameter : int
+---     Return type : int
+---     Modifiers : 1
+
+
+--- Method: regionMatches
+---     Parameter : int
+---     Parameter : java.lang.String
+---     Parameter : int
+---     Parameter : int
+---     Return type : boolean
+---     Modifiers : 1
+
+
+--- Method: regionMatches
+---     Parameter : boolean
+---     Parameter : int
+---     Parameter : java.lang.String
+---     Parameter : int
+---     Parameter : int
+---     Return type : boolean
+---     Modifiers : 1
+
+
+--- Method: replace
+---     Parameter : char
+---     Parameter : char
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: replace
+---     Parameter : java.lang.CharSequence
+---     Parameter : java.lang.CharSequence
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: replaceAll
+---     Parameter : java.lang.String
+---     Parameter : java.lang.String
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: replaceFirst
+---     Parameter : java.lang.String
+---     Parameter : java.lang.String
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: split
+---     Parameter : java.lang.String
+---     Return type : [Ljava.lang.String;
+---     Modifiers : 1
+
+
+--- Method: split
+---     Parameter : java.lang.String
+---     Parameter : int
+---     Return type : [Ljava.lang.String;
+---     Modifiers : 1
+
+
+--- Method: startsWith
+---     Parameter : java.lang.String
+---     Parameter : int
+---     Return type : boolean
+---     Modifiers : 1
+
+
+--- Method: startsWith
+---     Parameter : java.lang.String
+---     Return type : boolean
+---     Modifiers : 1
+
+
+--- Method: subSequence
+---     Parameter : int
+---     Parameter : int
+---     Return type : java.lang.CharSequence
+---     Modifiers : 1
+
+
+--- Method: substring
+---     Parameter : int
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: substring
+---     Parameter : int
+---     Parameter : int
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: toCharArray
+---     Return type : [C
+---     Modifiers : 1
+
+
+--- Method: toLowerCase
+---     Parameter : java.util.Locale
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: toLowerCase
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: toUpperCase
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: toUpperCase
+---     Parameter : java.util.Locale
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: trim
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+
+-----  Base class Constructors --------
+--- Constructor: java.lang.String
+---     Parameter: [B
+---     Parameter: int
+---     Parameter: int
+---     Modifiers : 1
+
+--- Constructor: java.lang.String
+---     Parameter: [B
+---     Parameter: java.nio.charset.Charset
+---     Modifiers : 1
+
+--- Constructor: java.lang.String
+---     Parameter: [B
+---     Parameter: java.lang.String
+---     Modifiers : 1
+
+--- Constructor: java.lang.String
+---     Parameter: [B
+---     Parameter: int
+---     Parameter: int
+---     Parameter: java.nio.charset.Charset
+---     Modifiers : 1
+
+--- Constructor: java.lang.String
+---     Parameter: [B
+---     Parameter: int
+---     Parameter: int
+---     Parameter: java.lang.String
+---     Modifiers : 1
+
+--- Constructor: java.lang.String
+---     Parameter: java.lang.StringBuilder
+---     Modifiers : 1
+
+--- Constructor: java.lang.String
+---     Parameter: java.lang.StringBuffer
+---     Modifiers : 1
+
+--- Constructor: java.lang.String
+---     Parameter: [B
+---     Modifiers : 1
+
+--- Constructor: java.lang.String
+---     Parameter: [I
+---     Parameter: int
+---     Parameter: int
+---     Modifiers : 1
+
+--- Constructor: java.lang.String
+---     Modifiers : 1
+
+--- Constructor: java.lang.String
+---     Parameter: [C
+---     Modifiers : 1
+
+--- Constructor: java.lang.String
+---     Parameter: java.lang.String
+---     Modifiers : 1
+
+--- Constructor: java.lang.String
+---     Parameter: [C
+---     Parameter: int
+---     Parameter: int
+---     Modifiers : 1
+
+--- Constructor: java.lang.String
+---     Parameter: [B
+---     Parameter: int
+---     Modifiers : 1
+
+--- Constructor: java.lang.String
+---     Parameter: [B
+---     Parameter: int
+---     Parameter: int
+---     Parameter: int
+---     Modifiers : 1
+
+
+-----  Base class Fields --------
+---     Field: value
+---     Type: [C
+---     Modifier: 18
+---     Value: [C@ad8086
+
+---     Field: hash
+---     Type: int
+---     Modifier: 2
+---     Value: 0
+
+---     Field: serialVersionUID
+---     Type: long
+---     Modifier: 26
+---     Value: -6849794470754667710
+
+---     Field: serialPersistentFields
+---     Type: [Ljava.io.ObjectStreamField;
+---     Modifier: 26
+---     Value: [Ljava.io.ObjectStreamField;@be858
+
+---     Field: CASE_INSENSITIVE_ORDER
+---     Type: java.util.Comparator
+---     Modifier: 25
+---     Value: java.lang.String$CaseInsensitiveComparator@1bbe9ba
+
+---  Recursive Inspection ---
+--Declaring Class: [C
+--Super Class: java.lang.Object
+
+--Interface : java.lang.Cloneable
+
+----- End of Interface traversal  -----
+
+
+--Interface : java.io.Serializable
+
+----- End of Interface traversal  -----
+
+
+
+-----  Base class methods --------
+
+-----  Base class Constructors --------
+
+-----  Base class Fields --------
+---  Recursive Inspection ---
+
+-----  Traversing Super Classes --------
+
+-----  Base Super Class --------
+--- Method: finalize
+---     Exception : java.lang.Throwable
+---     Return type : void
+---     Modifiers : 4
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Return type : void
+---     Modifiers : 17
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Parameter : long
+---     Parameter : int
+---     Return type : void
+---     Modifiers : 17
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Parameter : long
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: equals
+---     Parameter : java.lang.Object
+---     Return type : boolean
+---     Modifiers : 1
+
+
+--- Method: toString
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: hashCode
+---     Return type : int
+---     Modifiers : 257
+
+
+--- Method: getClass
+---     Return type : java.lang.Class
+---     Modifiers : 273
+
+
+--- Method: clone
+---     Exception : java.lang.CloneNotSupportedException
+---     Return type : java.lang.Object
+---     Modifiers : 260
+
+
+--- Method: notify
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: notifyAll
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: registerNatives
+---     Return type : void
+---     Modifiers : 266
+
+
+--- Constructor: java.lang.Object
+---     Modifiers : 1
+
+---  Recursive Inspection ---
+
+-----   End of super class traversal    -----
+
+---Array of Type: char
+---Array of length: 11
+Element 0: T
+Element 1: e
+Element 2: s
+Element 3: t
+Element 4:  
+Element 5: S
+Element 6: t
+Element 7: r
+Element 8: i
+Element 9: n
+Element 10: g
+--Declaring Class: [Ljava.io.ObjectStreamField;
+--Super Class: java.lang.Object
+
+--Interface : java.lang.Cloneable
+
+----- End of Interface traversal  -----
+
+
+--Interface : java.io.Serializable
+
+----- End of Interface traversal  -----
+
+
+
+-----  Base class methods --------
+
+-----  Base class Constructors --------
+
+-----  Base class Fields --------
+---  Recursive Inspection ---
+
+-----  Traversing Super Classes --------
+
+-----  Base Super Class --------
+--- Method: finalize
+---     Exception : java.lang.Throwable
+---     Return type : void
+---     Modifiers : 4
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Return type : void
+---     Modifiers : 17
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Parameter : long
+---     Parameter : int
+---     Return type : void
+---     Modifiers : 17
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Parameter : long
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: equals
+---     Parameter : java.lang.Object
+---     Return type : boolean
+---     Modifiers : 1
+
+
+--- Method: toString
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: hashCode
+---     Return type : int
+---     Modifiers : 257
+
+
+--- Method: getClass
+---     Return type : java.lang.Class
+---     Modifiers : 273
+
+
+--- Method: clone
+---     Exception : java.lang.CloneNotSupportedException
+---     Return type : java.lang.Object
+---     Modifiers : 260
+
+
+--- Method: notify
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: notifyAll
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: registerNatives
+---     Return type : void
+---     Modifiers : 266
+
+
+--- Constructor: java.lang.Object
+---     Modifiers : 1
+
+---  Recursive Inspection ---
+
+-----   End of super class traversal    -----
+
+---Array of Type: class java.io.ObjectStreamField
+---Array of length: 0
+--Declaring Class: java.lang.String$CaseInsensitiveComparator
+--Super Class: java.lang.Object
+
+--Interface : java.util.Comparator
+
+-----  Interface methods --------
+--- Method: equals
+---     Parameter : java.lang.Object
+---     Return type : boolean
+---     Modifiers : 1025
+
+
+--- Method: compare
+---     Parameter : java.lang.Object
+---     Parameter : java.lang.Object
+---     Return type : int
+---     Modifiers : 1025
+
+
+--- Method: $deserializeLambda$
+---     Parameter : java.lang.invoke.SerializedLambda
+---     Return type : java.lang.Object
+---     Modifiers : 4106
+
+
+--- Method: comparing
+---     Parameter : java.util.function.Function
+---     Parameter : java.util.Comparator
+---     Return type : java.util.Comparator
+---     Modifiers : 9
+
+
+--- Method: comparing
+---     Parameter : java.util.function.Function
+---     Return type : java.util.Comparator
+---     Modifiers : 9
+
+
+--- Method: comparingDouble
+---     Parameter : java.util.function.ToDoubleFunction
+---     Return type : java.util.Comparator
+---     Modifiers : 9
+
+
+--- Method: comparingInt
+---     Parameter : java.util.function.ToIntFunction
+---     Return type : java.util.Comparator
+---     Modifiers : 9
+
+
+--- Method: comparingLong
+---     Parameter : java.util.function.ToLongFunction
+---     Return type : java.util.Comparator
+---     Modifiers : 9
+
+
+--- Method: lambda$comparing$77a9974f$1
+---     Parameter : java.util.function.Function
+---     Parameter : java.lang.Object
+---     Parameter : java.lang.Object
+---     Return type : int
+---     Modifiers : 4106
+
+
+--- Method: lambda$comparing$ea9a8b3a$1
+---     Parameter : java.util.Comparator
+---     Parameter : java.util.function.Function
+---     Parameter : java.lang.Object
+---     Parameter : java.lang.Object
+---     Return type : int
+---     Modifiers : 4106
+
+
+--- Method: lambda$comparingDouble$8dcf42ea$1
+---     Parameter : java.util.function.ToDoubleFunction
+---     Parameter : java.lang.Object
+---     Parameter : java.lang.Object
+---     Return type : int
+---     Modifiers : 4106
+
+
+--- Method: lambda$comparingInt$7b0bb60$1
+---     Parameter : java.util.function.ToIntFunction
+---     Parameter : java.lang.Object
+---     Parameter : java.lang.Object
+---     Return type : int
+---     Modifiers : 4106
+
+
+--- Method: lambda$comparingLong$6043328a$1
+---     Parameter : java.util.function.ToLongFunction
+---     Parameter : java.lang.Object
+---     Parameter : java.lang.Object
+---     Return type : int
+---     Modifiers : 4106
+
+
+--- Method: lambda$thenComparing$36697e65$1
+---     Parameter : java.util.Comparator
+---     Parameter : java.lang.Object
+---     Parameter : java.lang.Object
+---     Return type : int
+---     Modifiers : 4098
+
+
+--- Method: naturalOrder
+---     Return type : java.util.Comparator
+---     Modifiers : 9
+
+
+--- Method: nullsFirst
+---     Parameter : java.util.Comparator
+---     Return type : java.util.Comparator
+---     Modifiers : 9
+
+
+--- Method: nullsLast
+---     Parameter : java.util.Comparator
+---     Return type : java.util.Comparator
+---     Modifiers : 9
+
+
+--- Method: reverseOrder
+---     Return type : java.util.Comparator
+---     Modifiers : 9
+
+
+--- Method: reversed
+---     Return type : java.util.Comparator
+---     Modifiers : 1
+
+
+--- Method: thenComparing
+---     Parameter : java.util.function.Function
+---     Return type : java.util.Comparator
+---     Modifiers : 1
+
+
+--- Method: thenComparing
+---     Parameter : java.util.Comparator
+---     Return type : java.util.Comparator
+---     Modifiers : 1
+
+
+--- Method: thenComparing
+---     Parameter : java.util.function.Function
+---     Parameter : java.util.Comparator
+---     Return type : java.util.Comparator
+---     Modifiers : 1
+
+
+--- Method: thenComparingDouble
+---     Parameter : java.util.function.ToDoubleFunction
+---     Return type : java.util.Comparator
+---     Modifiers : 1
+
+
+--- Method: thenComparingInt
+---     Parameter : java.util.function.ToIntFunction
+---     Return type : java.util.Comparator
+---     Modifiers : 1
+
+
+--- Method: thenComparingLong
+---     Parameter : java.util.function.ToLongFunction
+---     Return type : java.util.Comparator
+---     Modifiers : 1
+
+
+
+----- End of Interface traversal  -----
+
+
+--Interface : java.io.Serializable
+
+----- End of Interface traversal  -----
+
+
+
+-----  Base class methods --------
+--- Method: compare
+---     Parameter : java.lang.Object
+---     Parameter : java.lang.Object
+---     Return type : int
+---     Modifiers : 4161
+
+
+--- Method: compare
+---     Parameter : java.lang.String
+---     Parameter : java.lang.String
+---     Return type : int
+---     Modifiers : 1
+
+
+--- Method: readResolve
+---     Return type : java.lang.Object
+---     Modifiers : 2
+
+
+
+-----  Base class Constructors --------
+
+-----  Base class Fields --------
+---     Field: serialVersionUID
+---     Type: long
+---     Modifier: 26
+---     Value: 8575799808933029326
+
+---  Recursive Inspection ---
+
+-----  Traversing Super Classes --------
+
+-----  Base Super Class --------
+--- Method: finalize
+---     Exception : java.lang.Throwable
+---     Return type : void
+---     Modifiers : 4
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Return type : void
+---     Modifiers : 17
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Parameter : long
+---     Parameter : int
+---     Return type : void
+---     Modifiers : 17
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Parameter : long
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: equals
+---     Parameter : java.lang.Object
+---     Return type : boolean
+---     Modifiers : 1
+
+
+--- Method: toString
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: hashCode
+---     Return type : int
+---     Modifiers : 257
+
+
+--- Method: getClass
+---     Return type : java.lang.Class
+---     Modifiers : 273
+
+
+--- Method: clone
+---     Exception : java.lang.CloneNotSupportedException
+---     Return type : java.lang.Object
+---     Modifiers : 260
+
+
+--- Method: notify
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: notifyAll
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: registerNatives
+---     Return type : void
+---     Modifiers : 266
+
+
+--- Constructor: java.lang.Object
+---     Modifiers : 1
+
+---     Field: serialVersionUID
+---     Type: long
+---     Modifier: 26
+---     Value: 8575799808933029326
+
+---  Recursive Inspection ---
+
+-----   End of super class traversal    -----
+
+
+-----  Traversing Super Classes --------
+
+-----  Base Super Class --------
+--- Method: finalize
+---     Exception : java.lang.Throwable
+---     Return type : void
+---     Modifiers : 4
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Return type : void
+---     Modifiers : 17
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Parameter : long
+---     Parameter : int
+---     Return type : void
+---     Modifiers : 17
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Parameter : long
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: equals
+---     Parameter : java.lang.Object
+---     Return type : boolean
+---     Modifiers : 1
+
+
+--- Method: toString
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: hashCode
+---     Return type : int
+---     Modifiers : 257
+
+
+--- Method: getClass
+---     Return type : java.lang.Class
+---     Modifiers : 273
+
+
+--- Method: clone
+---     Exception : java.lang.CloneNotSupportedException
+---     Return type : java.lang.Object
+---     Modifiers : 260
+
+
+--- Method: notify
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: notifyAll
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: registerNatives
+---     Return type : void
+---     Modifiers : 266
+
+
+--- Constructor: java.lang.Object
+---     Modifiers : 1
+
+---     Field: value
+---     Type: [C
+---     Modifier: 18
+---     Value: [C@ad8086
+
+---     Field: hash
+---     Type: int
+---     Modifier: 2
+---     Value: 0
+
+---     Field: serialVersionUID
+---     Type: long
+---     Modifier: 26
+---     Value: -6849794470754667710
+
+---     Field: serialPersistentFields
+---     Type: [Ljava.io.ObjectStreamField;
+---     Modifier: 26
+---     Value: [Ljava.io.ObjectStreamField;@be858
+
+---     Field: CASE_INSENSITIVE_ORDER
+---     Type: java.util.Comparator
+---     Modifier: 25
+---     Value: java.lang.String$CaseInsensitiveComparator@1bbe9ba
+
+---  Recursive Inspection ---
+--Declaring Class: [C
+--Super Class: java.lang.Object
+
+--Interface : java.lang.Cloneable
+
+----- End of Interface traversal  -----
+
+
+--Interface : java.io.Serializable
+
+----- End of Interface traversal  -----
+
+
+
+-----  Base class methods --------
+
+-----  Base class Constructors --------
+
+-----  Base class Fields --------
+---  Recursive Inspection ---
+
+-----  Traversing Super Classes --------
+
+-----  Base Super Class --------
+--- Method: finalize
+---     Exception : java.lang.Throwable
+---     Return type : void
+---     Modifiers : 4
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Return type : void
+---     Modifiers : 17
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Parameter : long
+---     Parameter : int
+---     Return type : void
+---     Modifiers : 17
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Parameter : long
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: equals
+---     Parameter : java.lang.Object
+---     Return type : boolean
+---     Modifiers : 1
+
+
+--- Method: toString
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: hashCode
+---     Return type : int
+---     Modifiers : 257
+
+
+--- Method: getClass
+---     Return type : java.lang.Class
+---     Modifiers : 273
+
+
+--- Method: clone
+---     Exception : java.lang.CloneNotSupportedException
+---     Return type : java.lang.Object
+---     Modifiers : 260
+
+
+--- Method: notify
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: notifyAll
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: registerNatives
+---     Return type : void
+---     Modifiers : 266
+
+
+--- Constructor: java.lang.Object
+---     Modifiers : 1
+
+---  Recursive Inspection ---
+
+-----   End of super class traversal    -----
+
+---Array of Type: char
+---Array of length: 11
+Element 0: T
+Element 1: e
+Element 2: s
+Element 3: t
+Element 4:  
+Element 5: S
+Element 6: t
+Element 7: r
+Element 8: i
+Element 9: n
+Element 10: g
+--Declaring Class: [Ljava.io.ObjectStreamField;
+--Super Class: java.lang.Object
+
+--Interface : java.lang.Cloneable
+
+----- End of Interface traversal  -----
+
+
+--Interface : java.io.Serializable
+
+----- End of Interface traversal  -----
+
+
+
+-----  Base class methods --------
+
+-----  Base class Constructors --------
+
+-----  Base class Fields --------
+---  Recursive Inspection ---
+
+-----  Traversing Super Classes --------
+
+-----  Base Super Class --------
+--- Method: finalize
+---     Exception : java.lang.Throwable
+---     Return type : void
+---     Modifiers : 4
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Return type : void
+---     Modifiers : 17
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Parameter : long
+---     Parameter : int
+---     Return type : void
+---     Modifiers : 17
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Parameter : long
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: equals
+---     Parameter : java.lang.Object
+---     Return type : boolean
+---     Modifiers : 1
+
+
+--- Method: toString
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: hashCode
+---     Return type : int
+---     Modifiers : 257
+
+
+--- Method: getClass
+---     Return type : java.lang.Class
+---     Modifiers : 273
+
+
+--- Method: clone
+---     Exception : java.lang.CloneNotSupportedException
+---     Return type : java.lang.Object
+---     Modifiers : 260
+
+
+--- Method: notify
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: notifyAll
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: registerNatives
+---     Return type : void
+---     Modifiers : 266
+
+
+--- Constructor: java.lang.Object
+---     Modifiers : 1
+
+---  Recursive Inspection ---
+
+-----   End of super class traversal    -----
+
+---Array of Type: class java.io.ObjectStreamField
+---Array of length: 0
+--Declaring Class: java.lang.String$CaseInsensitiveComparator
+--Super Class: java.lang.Object
+
+--Interface : java.util.Comparator
+
+-----  Interface methods --------
+--- Method: equals
+---     Parameter : java.lang.Object
+---     Return type : boolean
+---     Modifiers : 1025
+
+
+--- Method: compare
+---     Parameter : java.lang.Object
+---     Parameter : java.lang.Object
+---     Return type : int
+---     Modifiers : 1025
+
+
+--- Method: $deserializeLambda$
+---     Parameter : java.lang.invoke.SerializedLambda
+---     Return type : java.lang.Object
+---     Modifiers : 4106
+
+
+--- Method: comparing
+---     Parameter : java.util.function.Function
+---     Parameter : java.util.Comparator
+---     Return type : java.util.Comparator
+---     Modifiers : 9
+
+
+--- Method: comparing
+---     Parameter : java.util.function.Function
+---     Return type : java.util.Comparator
+---     Modifiers : 9
+
+
+--- Method: comparingDouble
+---     Parameter : java.util.function.ToDoubleFunction
+---     Return type : java.util.Comparator
+---     Modifiers : 9
+
+
+--- Method: comparingInt
+---     Parameter : java.util.function.ToIntFunction
+---     Return type : java.util.Comparator
+---     Modifiers : 9
+
+
+--- Method: comparingLong
+---     Parameter : java.util.function.ToLongFunction
+---     Return type : java.util.Comparator
+---     Modifiers : 9
+
+
+--- Method: lambda$comparing$77a9974f$1
+---     Parameter : java.util.function.Function
+---     Parameter : java.lang.Object
+---     Parameter : java.lang.Object
+---     Return type : int
+---     Modifiers : 4106
+
+
+--- Method: lambda$comparing$ea9a8b3a$1
+---     Parameter : java.util.Comparator
+---     Parameter : java.util.function.Function
+---     Parameter : java.lang.Object
+---     Parameter : java.lang.Object
+---     Return type : int
+---     Modifiers : 4106
+
+
+--- Method: lambda$comparingDouble$8dcf42ea$1
+---     Parameter : java.util.function.ToDoubleFunction
+---     Parameter : java.lang.Object
+---     Parameter : java.lang.Object
+---     Return type : int
+---     Modifiers : 4106
+
+
+--- Method: lambda$comparingInt$7b0bb60$1
+---     Parameter : java.util.function.ToIntFunction
+---     Parameter : java.lang.Object
+---     Parameter : java.lang.Object
+---     Return type : int
+---     Modifiers : 4106
+
+
+--- Method: lambda$comparingLong$6043328a$1
+---     Parameter : java.util.function.ToLongFunction
+---     Parameter : java.lang.Object
+---     Parameter : java.lang.Object
+---     Return type : int
+---     Modifiers : 4106
+
+
+--- Method: lambda$thenComparing$36697e65$1
+---     Parameter : java.util.Comparator
+---     Parameter : java.lang.Object
+---     Parameter : java.lang.Object
+---     Return type : int
+---     Modifiers : 4098
+
+
+--- Method: naturalOrder
+---     Return type : java.util.Comparator
+---     Modifiers : 9
+
+
+--- Method: nullsFirst
+---     Parameter : java.util.Comparator
+---     Return type : java.util.Comparator
+---     Modifiers : 9
+
+
+--- Method: nullsLast
+---     Parameter : java.util.Comparator
+---     Return type : java.util.Comparator
+---     Modifiers : 9
+
+
+--- Method: reverseOrder
+---     Return type : java.util.Comparator
+---     Modifiers : 9
+
+
+--- Method: reversed
+---     Return type : java.util.Comparator
+---     Modifiers : 1
+
+
+--- Method: thenComparing
+---     Parameter : java.util.function.Function
+---     Return type : java.util.Comparator
+---     Modifiers : 1
+
+
+--- Method: thenComparing
+---     Parameter : java.util.Comparator
+---     Return type : java.util.Comparator
+---     Modifiers : 1
+
+
+--- Method: thenComparing
+---     Parameter : java.util.function.Function
+---     Parameter : java.util.Comparator
+---     Return type : java.util.Comparator
+---     Modifiers : 1
+
+
+--- Method: thenComparingDouble
+---     Parameter : java.util.function.ToDoubleFunction
+---     Return type : java.util.Comparator
+---     Modifiers : 1
+
+
+--- Method: thenComparingInt
+---     Parameter : java.util.function.ToIntFunction
+---     Return type : java.util.Comparator
+---     Modifiers : 1
+
+
+--- Method: thenComparingLong
+---     Parameter : java.util.function.ToLongFunction
+---     Return type : java.util.Comparator
+---     Modifiers : 1
+
+
+
+----- End of Interface traversal  -----
+
+
+--Interface : java.io.Serializable
+
+----- End of Interface traversal  -----
+
+
+
+-----  Base class methods --------
+--- Method: compare
+---     Parameter : java.lang.Object
+---     Parameter : java.lang.Object
+---     Return type : int
+---     Modifiers : 4161
+
+
+--- Method: compare
+---     Parameter : java.lang.String
+---     Parameter : java.lang.String
+---     Return type : int
+---     Modifiers : 1
+
+
+--- Method: readResolve
+---     Return type : java.lang.Object
+---     Modifiers : 2
+
+
+
+-----  Base class Constructors --------
+
+-----  Base class Fields --------
+---     Field: serialVersionUID
+---     Type: long
+---     Modifier: 26
+---     Value: 8575799808933029326
+
+---  Recursive Inspection ---
+
+-----  Traversing Super Classes --------
+
+-----  Base Super Class --------
+--- Method: finalize
+---     Exception : java.lang.Throwable
+---     Return type : void
+---     Modifiers : 4
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Return type : void
+---     Modifiers : 17
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Parameter : long
+---     Parameter : int
+---     Return type : void
+---     Modifiers : 17
+
+
+--- Method: wait
+---     Exception : java.lang.InterruptedException
+---     Parameter : long
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: equals
+---     Parameter : java.lang.Object
+---     Return type : boolean
+---     Modifiers : 1
+
+
+--- Method: toString
+---     Return type : java.lang.String
+---     Modifiers : 1
+
+
+--- Method: hashCode
+---     Return type : int
+---     Modifiers : 257
+
+
+--- Method: getClass
+---     Return type : java.lang.Class
+---     Modifiers : 273
+
+
+--- Method: clone
+---     Exception : java.lang.CloneNotSupportedException
+---     Return type : java.lang.Object
+---     Modifiers : 260
+
+
+--- Method: notify
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: notifyAll
+---     Return type : void
+---     Modifiers : 273
+
+
+--- Method: registerNatives
+---     Return type : void
+---     Modifiers : 266
+
+
+--- Constructor: java.lang.Object
+---     Modifiers : 1
+
+---     Field: serialVersionUID
+---     Type: long
+---     Modifier: 26
+---     Value: 8575799808933029326
+
+---  Recursive Inspection ---
+
+-----   End of super class traversal    -----
+
+
+-----   End of super class traversal    -----
+
+======================================================
