@@ -29,6 +29,7 @@ public class Inspector {
         System.out.println();
 
         //attaining methods for current object and super class 
+        System.out.println("\n-----  Base class methods --------");
         inspectMethods(objClass);
         System.out.println("\n-----  Super class methods --------");
         inspectMethods(objClass.getSuperclass());
@@ -40,7 +41,13 @@ public class Inspector {
         Class[] interfaces = objClass.getInterfaces();
         //Print the name of each of the interfaces
         for (Class interFace : interfaces) {
-            System.out.println("--Interface : " + interFace.getName());
+            System.out.println("\n--Interface : " + interFace.getName());
+
+            //Get interface methods
+            if (interFace.getMethods() != new Method[] {}){
+                System.out.println("\n-----  Interface methods --------");
+                inspectMethods(interFace);
+            }
         }
 
     }
