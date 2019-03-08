@@ -9,6 +9,7 @@
 **/ 
 
 import java.lang.reflect.*;
+import java.util.*;
 
 public class Inspector {
 
@@ -23,6 +24,21 @@ public class Inspector {
         String superClass = objClass.getSuperclass().getName();
         System.out.println("--Super Class: " + superClass);
 
+        //Interfaces the class implements
+        findInterfaces(objClass);
+        System.out.println();
+
         
+
+        
+    }
+
+    public void findInterfaces(Class objClass){
+        Class[] interfaces = objClass.getInterfaces();
+        //Print the name of each of the interfaces
+        for (Class interFace : interfaces) {
+            System.out.println("--Interface : " + interFace.getName());
+        }
+
     }
 }

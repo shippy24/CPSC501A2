@@ -6,7 +6,7 @@ ClassD.java
 InterfaceA.java
 InterfaceB.java
 ObjectInspector.java
-Asst2TestDriver.java
+Asst2TestDriver.class
 ClassA.class
 ClassB.class
 ClassC.class
@@ -14,3 +14,4 @@ ClassD.class
 InterfaceA.class
 InterfaceB.class
 ObjectInspector.class
+Inspector.class
