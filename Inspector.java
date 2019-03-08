@@ -45,8 +45,21 @@ public class Inspector {
         System.out.println("\n-----  Traversing Super Classes --------");
         traverseSuperMethods(obj, objClass);
 
+        //Handling arrays
+        handleArray(obj, objClass);
         
-        
+    }
+
+    public void handleArray(Object obj, Class objClass) throws Exception {
+        //Check if array
+        if (objClass.isArray()) {
+            //Print out info about array if array
+            System.out.println("---Array of Type: " + objClass.getComponentType());
+            System.out.println("---Array of length: " + obj.length);
+            for (int i = 0; i < obj.length; i++) {
+                System.out.println("Element " + i + ": " + Array.get(obj, i));
+            }
+        }
     }
 
     public void traverseSuperMethods(Object obj, Class objClass){
