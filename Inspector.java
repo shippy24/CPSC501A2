@@ -6,6 +6,7 @@
                     that does a complete introspection of 
                     an object at runtime.
 
+    Uses and edits code from Jordan Kidney ObjectInspector.java for field
 **/ 
 
 import java.lang.reflect.*;
@@ -35,6 +36,10 @@ public class Inspector {
         //attaining the constructors defined
         System.out.println("\n-----  Base class Constructors --------");
         inspectConstructors(objClass);
+
+        //attaining fields
+        System.out.println("\n-----  Base class Fields --------");
+        inspectFields(obj, objClass);
 
         //attaining info from traversing super class
         System.out.println("\n-----  Traversing Super Classes --------");
@@ -148,6 +153,28 @@ public class Inspector {
             System.out.println("---     Modifiers : " + constructor.getModifiers() + "\n");
 
         }
+
+    }
+
+    public void inspectFields(Object obj, Class objClass) {
+        //Get fields
+        Field[] declaredFields = objClass.getDeclaredFields();
+
+        try {
+
+            for (Field field : declaredFields){
+                //Print field info
+                System.out.println("---     Field: " + field.getName());
+                System.out.println("---     Type: " + field.getType().getName());
+                System.out.println("---     Modifier: " + field.getModifiers());
+
+                //Allow full access to all fields
+                field.setAccessible(true);
+                //Get field value
+                System.out.println("---     Value: " + field.get(obj) + "\n");
+            }
+        }
+        catch (Exception e) { System.out.println(e.getMessage()); }
 
     }
 }
