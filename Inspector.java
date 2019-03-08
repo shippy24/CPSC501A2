@@ -25,19 +25,37 @@ public class Inspector {
         System.out.println("--Super Class: " + superClass);
 
         //Interfaces the class implements
-        findInterfaces(objClass);
+        traverseInterfaces(objClass);
         System.out.println();
 
         //attaining methods for current object and super class 
         System.out.println("\n-----  Base class methods --------");
         inspectMethods(objClass);
-        System.out.println("\n-----  Super class methods --------");
-        inspectMethods(objClass.getSuperclass());
+        System.out.println("\n-----  Traversing Super Classes --------");
+        traverseSuperMethods(objClass);
 
         
     }
 
-    public void findInterfaces(Class objClass){
+    public void traverseSuperMethods(Class objClass){
+        System.out.println("\n-----  Base Super Class --------");
+        inspectMethods(objClass.getSuperclass());
+        Class currentSuperClass = objClass.getSuperclass();
+
+        if (currentSuperClass.getSuperclass() != null)
+            System.out.println("\n-----  Recursive Super Classes --------");
+
+        while (currentSuperClass.getSuperclass() != null) {
+            Class nextSuperClass = currentSuperClass.getSuperclass();
+            System.out.println("\n----- " +  nextSuperClass.getName() + " --------");
+            inspectMethods(nextSuperClass);
+            currentSuperClass = nextSuperClass;
+        }
+
+        System.out.println("-----   End of super class traversal    -----");
+    }
+
+    public void traverseInterfaces(Class objClass){
         Class[] interfaces = objClass.getInterfaces();
         //Print the name of each of the interfaces
         for (Class interFace : interfaces) {
