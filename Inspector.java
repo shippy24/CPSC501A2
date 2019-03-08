@@ -18,5 +18,11 @@ public class Inspector {
         Class objClass = obj.getClass();
         String declClass = objClass.getName();
         System.out.println("--Declaring Class: " + declClass);
+
+        //immediate super class
+        String superClass = objClass.getSuperclass().getName();
+        System.out.println("--Super Class: " + superClass);
+
+        
     }
 }
