@@ -1,0 +1,101 @@
+commit 0a469d622dd0f8b970b114c74afabeb16b8844e1
+Author: Shayne Mujuru <shaynemujuru@gmail.com>
+Date:   Fri Mar 8 14:34:12 2019 -0700
+
+    Added stack trace of operation, finished implementing arrays and tests
+
+commit b6f412153c2973fa6c9e80204183780c0ca66666
+Author: Shayne Mujuru <shaynemujuru@gmail.com>
+Date:   Fri Mar 8 14:13:40 2019 -0700
+
+    Added implementation to handle arrays
+
+commit 35b503791b3310f0898efcc1ee383c28bece70b0
+Author: Shayne Mujuru <shaynemujuru@gmail.com>
+Date:   Fri Mar 8 13:59:01 2019 -0700
+
+    Added field implementation to traversals after testing
+
+commit f6f80f3c4a81db379ff9eb268edd9fd56ec4fdef
+Author: Shayne Mujuru <shaynemujuru@gmail.com>
+Date:   Fri Mar 8 13:51:31 2019 -0700
+
+     Added basic implementation of field info
+
+commit e162cbb18ee91fa8e3b9f9a37f8e0edf7a4e30d0
+Author: Shayne Mujuru <shaynemujuru@gmail.com>
+Date:   Fri Mar 8 13:19:31 2019 -0700
+
+    Added implementation for constructors -> traverses interfaces and super classes also
+
+commit bb446d0797682a7cb5dd78afee034ff25c307aa0
+Author: Shayne Mujuru <shaynemujuru@gmail.com>
+Date:   Fri Mar 8 12:49:09 2019 -0700
+
+    Interface traversal added
+
+commit c23ba9a1a998cce22294cb91238ac1a420166929
+Author: Shayne Mujuru <shaynemujuru@gmail.com>
+Date:   Fri Mar 8 12:35:21 2019 -0700
+
+    Added the super class traversal
+
+commit b4cb6526bf2dc5222877667b1485ed180f9f6588
+Author: Shayne Mujuru <shaynemujuru@gmail.com>
+Date:   Fri Mar 8 12:15:43 2019 -0700
+
+    Implemented params, return type and modifiers
+
+commit 4dea47ec80e6b9aa2c81d239559278c570c0c771
+Author: Shayne Mujuru <shaynemujuru@gmail.com>
+Date:   Fri Mar 8 12:03:09 2019 -0700
+
+    Added implementation for exceptions
+
+commit 62d0573dcf213abce574cb8878a6b27b4d656e1e
+Author: Shayne Mujuru <shaynemujuru@gmail.com>
+Date:   Fri Mar 8 11:49:50 2019 -0700
+
+    Added means of getting superinterface methods
+
+commit 9525e586d8d62806f0b835c38bdf88e21a95bf4a
+Author: Shayne Mujuru <shaynemujuru@gmail.com>
+Date:   Fri Mar 8 11:38:52 2019 -0700
+
+    added means of finding methods incl. superclass, refactor -> moved work to methods
+
+commit 0f75f97dae94ed2050a95fe0f736260e69967add
+Author: Shayne Mujuru <shaynemujuru@gmail.com>
+Date:   Fri Mar 8 11:06:41 2019 -0700
+
+    Means for identifying interfaces added
+
+commit dea0ae352112e95e6557e31baa7d728318c40ac1
+Author: Shayne Mujuru <shaynemujuru@gmail.com>
+Date:   Fri Mar 8 10:55:46 2019 -0700
+
+    Unnecessary files dealt with (refactor)
+
+commit 81651cfd88f8893a337fa02084920d159de4fc16
+Author: Shayne Mujuru <shaynemujuru@gmail.com>
+Date:   Fri Mar 8 10:53:17 2019 -0700
+
+    Removed unnecessary files (refactor)
+
+commit a960cb799272e2a239c30adcd5cb184aa4317770
+Author: Shayne Mujuru <shaynemujuru@gmail.com>
+Date:   Fri Mar 8 10:52:11 2019 -0700
+
+    Added immediate superclass implementation
+
+commit 862f4f1b984e714a69aee71383d9408089243bc4
+Author: Shayne Mujuru <shaynemujuru@gmail.com>
+Date:   Fri Mar 8 10:29:41 2019 -0700
+
+    Means for attaining declaring class
+
+commit cb24106412b4a882bc725e882dd68586693cf4a6
+Author: Shayne Mujuru <shaynemujuru@gmail.com>
+Date:   Fri Mar 8 10:20:42 2019 -0700
+
+    testing remote

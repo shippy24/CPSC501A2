@@ -1,0 +1,11 @@
+REFACTORING 
+Moved work initially done in inspect into seperate methods.
+
+Changed name of findMethods to traverseMethods -> makes more sense.
+
+Added comments which make sense and make it easier to follow.
+
+Joined similar work done at different places into a method so we don't repeat code.
+
+Structured code in a way that features are easier to add, for instance once I had done method declarations for interfaces and super classes it became
+simple to do the constructors, exceptions, fields and so on.
